@@ -1,8 +1,9 @@
 print("zadejte prvni číslo")
-x = input()
+x = int(input())
 print("zadejte druhe číslo")
-y = input()
+y = int(input())
+print('Výsledek : ')
 if x + y <= 1000:
- print(x*y)
+  print(x*y)
 else :
-    print(x+y)
+  print(x+y)
