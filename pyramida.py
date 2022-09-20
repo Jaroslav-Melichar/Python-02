@@ -1,4 +1,4 @@
-def pypart(n):
+def pyramide(n):
 
     for i in range(0, n):
 
@@ -9,4 +9,4 @@ def pypart(n):
         print("\r")
  
 n = 5
-pypart(n)
+pyramide(n)
